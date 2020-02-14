@@ -2,19 +2,16 @@ table {
     border: 2px solid black;
     border-collapse: collapse;
     width: 80%;
+    th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+    th {
+        background-color: lightgray;
+    }
+
 }
-
-th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-}
-
-th {
-    background-color: lightgray;
-}
-
-
 
 m_heading, message{
   text-align: center;
